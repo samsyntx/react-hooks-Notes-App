@@ -12,6 +12,7 @@ export const CompleteNotesContainer = styled.div`
 export const NotesMainHeading = styled.h1`
   font-family: 'Bree Serif';
   color: #4c63b6;
+  margin: 10px 0px 20px 0px;
 `
 
 export const NotesTypeFormContainer = styled.form`
@@ -62,4 +63,27 @@ export const NotesUnOrderListItem = styled.ul`
   display: flex;
   flex-direction: row;
   min-height: 250px;
+  width: 100%;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  @media all and (min-width: 768px) {
+    width: 600px;
+    justify-content: space-around;
+  }
 `
+// No Task Available
+
+export const NoTaskContainer = styled.div`
+  width: 100%;
+  color: #334155;
+`
+
+export const NoTaskImage = styled.img`
+  width: 100px;
+`
+
+export const NoTaskHeading = styled.h1`
+  margin: 15px 0px 15px 0px;
+`
+
+export const NoTaskPara = styled.p``
